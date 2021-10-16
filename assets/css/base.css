@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #ff6b81;
+  --p-textColor: #888888;
+  --title-textColor: #181828;
+  --whiteColor: #f9f9f9;
+  --blackColor: #1f1f1f;
+  --grayColor: #333333;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--whiteColor);
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor);
+}
+
+/* Set Class */
+.displayNone {
+  display: none;
+}
+
+.pointerEventsNone {
+  pointer-events: none;
+}
+
+.boxShadowFull {
+  box-shadow: #777777 0px 0px 10px;
+}
+
+.marginPrimary {
+  padding-top: 100px;
+}
+
+/* Set icon */
+.IconPrimary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.IconPrimary i {
+  font-size: 1.8rem;
+  padding: 20px;
+  margin: 40px 0 20px 20px;
+  border-radius: 8px;
+  color: var(--whiteColor);
+  font-weight: 600;
+  background-color: var(--primaryColor);
+  box-shadow: #999999 4px 4px 4px;
+}
+
+/* Set Button */
+.ButtonPrimary {
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  background-color: var(--primaryColor);
+}
+
+.ButtonPrimary:hover {
+  transition: 0.4s linear;
+  background-color: var(--blackColor);
+}
+
+.ButtonPrimary a {
+  color: var(--whiteColor);
+  font-size: 1.6rem;
+}
+
+/* Section Title */
+.SectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: default;
+}
+
+.SectionTitle span {
+  text-transform: uppercase;
+  color: var(--primaryColor);
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.SectionTitle h1 {
+  text-transform: capitalize;
+  color: var(--title-textColor);
+  font-family: "Birthstone", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 3.4rem;
+  font-weight: 700;
+  padding: 10px 0;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.SectionTitle p {
+  color: var(--p-textColor);
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 10px 0;
+  max-width: 650px;
+  text-align: center;
+  line-height: 2;
+}
+
+/* ScrollTop */
+.scroll-top {
+  display: none;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.scroll-top:hover {
+  background-color: var(--blackColor);
+  transform: translateY(-4px);
+  transition: transform 0.4s ease;
+}

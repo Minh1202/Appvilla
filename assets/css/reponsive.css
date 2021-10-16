@@ -1,0 +1,220 @@
+/* Mobile and tablet */
+@media (max-width: 63.9375em) {
+  .header-navbar {
+    display: none;
+  }
+
+  #home {
+    height: 1000px;
+  }
+
+  .home-title {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-navbar-mobile {
+    display: flex;
+  }
+
+  .item-f ul li a {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .single-block {
+    max-width: 300px;
+  }
+
+  .overview-title {
+    padding-bottom: 60px;
+  }
+
+  .overview-title h1 {
+    font-size: 2.6rem;
+  }
+  .overview-title p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  .nav-items-mobile {
+    top: 70px;
+    width: 100%;
+    right: -48px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .nav-items-mobile li {
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .team-item {
+    margin: 20px auto;
+  }
+  .blog-item {
+    margin: 20px auto;
+  }
+  .item-f ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  /* Header */
+
+  .header {
+    height: 80px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+  .header-logo {
+    padding: 20px;
+  }
+
+  /* Home */
+
+  #home {
+    height: 700px;
+  }
+
+  .home-title h1 {
+    font-size: 2.6rem;
+    padding: 10px;
+  }
+  .home-title p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .home-btn a {
+    font-size: 1rem;
+  }
+
+  /* Features */
+  .features-title {
+    padding: 0 10px;
+  }
+  .features-title h1 {
+    font-size: 2.4rem;
+  }
+  .features-title p {
+    font-size: 1.2rem;
+  }
+
+  /* OverView */
+  .overview-title h1 {
+    font-size: 2.6rem;
+  }
+  .overview-title {
+    padding: 30px;
+  }
+
+  .overview-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  .overview-img img {
+    width: 60%;
+    height: 60%;
+  }
+
+  /* Out-Achievenment */
+  .our-achievement {
+    padding: 10px;
+  }
+  .our-achievement h1 {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+  .our-achievement p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .our-achievement-items {
+    width: 100%;
+  }
+
+  /* Pricing */
+  .pricing-title {
+    padding: 0 10px;
+  }
+
+  .pricing-item {
+    max-width: 350px;
+  }
+
+  .client-logo-wrapper {
+    padding: 0 10px;
+  }
+
+  .team-item {
+    max-width: 345px;
+  }
+
+  .logo-item {
+    width: 33%;
+    height: 50px;
+    padding: 10px;
+  }
+  .logo-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .single-footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .item-footer {
+    padding-top: 30px;
+    align-items: center;
+  }
+
+  .FAQ {
+    display: none;
+  }
+
+  .item-f h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .FAQ {
+    display: none;
+  }
+  .pricing-item {
+    max-width: 295px;
+  }
+  .team-item {
+    max-width: 290px;
+  }
+  .blog-info-name ul li {
+    font-size: 1rem;
+  }
+  .item-f h3 {
+    font-size: 1.2rem;
+  }
+}
